@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="16" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-30T20:54:22Z" name="Suite" finished-at="2021-09-30T20:54:22Z" duration-ms="208">
+    <groups>
+      <group name="Shake">
+        <method signature="Day2.logincarloan1()[pri:0, instance:package1.Day2@196a42c3]" name="logincarloan1" class="package1.Day2"/>
+      </group> <!-- Shake -->
+      <group name="Regression">
+        <method signature="Day3.loginpersonalloan2()[pri:0, instance:package1.Day3@7d0b7e3c]" name="loginpersonalloan2" class="package1.Day3"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2021-09-30T20:54:22Z" name="Test" finished-at="2021-09-30T20:54:22Z" duration-ms="119">
+      <class name="package1.Day1">
+        <test-method signature="loginhomeloan1()[pri:0, instance:package1.Day1@4b741d6d]" started-at="2021-09-30T20:54:22Z" name="loginhomeloan1" finished-at="2021-09-30T20:54:22Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginhomeloan1 -->
+        <test-method signature="loginhomeloan2()[pri:0, instance:package1.Day1@4b741d6d]" started-at="2021-09-30T20:54:22Z" name="loginhomeloan2" finished-at="2021-09-30T20:54:22Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginhomeloan2 -->
+        <test-method signature="loginhomeloan3()[pri:0, instance:package1.Day1@4b741d6d]" started-at="2021-09-30T20:54:22Z" name="loginhomeloan3" finished-at="2021-09-30T20:54:22Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginhomeloan3 -->
+        <test-method signature="loginhomeloan4()[pri:0, instance:package1.Day1@4b741d6d]" started-at="2021-09-30T20:54:22Z" name="loginhomeloan4" finished-at="2021-09-30T20:54:22Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginhomeloan4 -->
+      </class> <!-- package1.Day1 -->
+      <class name="package1.Day3">
+        <test-method signature="loginpersonalloan1()[pri:0, instance:package1.Day3@7d0b7e3c]" started-at="2021-09-30T20:54:22Z" name="loginpersonalloan1" finished-at="2021-09-30T20:54:22Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpersonalloan1 -->
+        <test-method signature="loginpersonalloan2()[pri:0, instance:package1.Day3@7d0b7e3c]" started-at="2021-09-30T20:54:22Z" name="loginpersonalloan2" finished-at="2021-09-30T20:54:22Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpersonalloan2 -->
+        <test-method signature="loginpersonalloan3()[pri:0, instance:package1.Day3@7d0b7e3c]" started-at="2021-09-30T20:54:22Z" name="loginpersonalloan3" finished-at="2021-09-30T20:54:22Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpersonalloan3 -->
+        <test-method signature="loginpersonalloan4()[pri:0, instance:package1.Day3@7d0b7e3c]" started-at="2021-09-30T20:54:22Z" name="loginpersonalloan4" finished-at="2021-09-30T20:54:22Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpersonalloan4 -->
+      </class> <!-- package1.Day3 -->
+      <class name="package1.Day4">
+        <test-method signature="loginbankloan1(java.lang.String)[pri:0, instance:package1.Day4@15bb5034]" started-at="2021-09-30T20:54:22Z" name="loginbankloan1" finished-at="2021-09-30T20:54:22Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginbankloan1 -->
+        <test-method signature="loginbankloan2()[pri:0, instance:package1.Day4@15bb5034]" started-at="2021-09-30T20:54:22Z" name="loginbankloan2" finished-at="2021-09-30T20:54:22Z" duration-ms="4" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at package1.Day4.loginbankloan2(Day4.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginbankloan2 -->
+        <test-method signature="loginbankloan3(java.lang.String, java.lang.String)[pri:0, instance:package1.Day4@15bb5034]" started-at="2021-09-30T20:54:22Z" name="loginbankloan3" data-provider="getdata" finished-at="2021-09-30T20:54:22Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shake]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mohammad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginbankloan3 -->
+        <test-method signature="loginbankloan3(java.lang.String, java.lang.String)[pri:0, instance:package1.Day4@15bb5034]" started-at="2021-09-30T20:54:22Z" name="loginbankloan3" data-provider="getdata" finished-at="2021-09-30T20:54:22Z" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tauhid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aaiam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginbankloan3 -->
+        <test-method signature="loginbankloan4()[pri:0, instance:package1.Day4@15bb5034]" started-at="2021-09-30T20:54:22Z" name="loginbankloan4" finished-at="2021-09-30T20:54:22Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginbankloan4 -->
+      </class> <!-- package1.Day4 -->
+    </test> <!-- Test -->
+    <test started-at="2021-09-30T20:54:22Z" name="Test1" finished-at="2021-09-30T20:54:22Z" duration-ms="17">
+      <class name="package1.Day2">
+        <test-method signature="logincarloan1()[pri:0, instance:package1.Day2@196a42c3]" started-at="2021-09-30T20:54:22Z" name="logincarloan1" finished-at="2021-09-30T20:54:22Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logincarloan1 -->
+        <test-method signature="logincarloan2()[pri:0, instance:package1.Day2@196a42c3]" started-at="2021-09-30T20:54:22Z" name="logincarloan2" finished-at="2021-09-30T20:54:22Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logincarloan2 -->
+        <test-method signature="logincarloan3()[pri:0, instance:package1.Day2@196a42c3]" started-at="2021-09-30T20:54:22Z" name="logincarloan3" finished-at="2021-09-30T20:54:22Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logincarloan3 -->
+        <test-method signature="logincarloan4()[pri:0, instance:package1.Day2@196a42c3]" started-at="2021-09-30T20:54:22Z" name="logincarloan4" finished-at="2021-09-30T20:54:22Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logincarloan4 -->
+      </class> <!-- package1.Day2 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

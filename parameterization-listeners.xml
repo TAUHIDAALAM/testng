@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count ="5">
+
+<listeners>
+
+<listener class-name = "package1.Lstereners"/>
+
+</listeners>
+
+
+  <test  name="Test">
+  <parameter name = "URL" value = "amazon.com"  />
+    <classes>
+      <class name="package1.Day3"/>
+      <class name="package1.Day4"/>
+      <class name="package1.Day1"/>
+     
+    </classes>
+  </test> 
+  
+   <test  name="Test1">
+   
+   <parameter name = "URL" value = "amazon.com"  />
+    <classes>
+    
+
+      <class name="package1.Day2"/>
+    </classes>
+  </test> 
+</suite> 

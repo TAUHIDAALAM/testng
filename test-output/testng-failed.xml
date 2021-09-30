@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="package1.Lstereners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="URL" value="amazon.com"/>
+    <classes>
+      <class name="package1.Day4">
+        <methods>
+          <include name="loginbankloan2"/>
+        </methods>
+      </class> <!-- package1.Day4 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
